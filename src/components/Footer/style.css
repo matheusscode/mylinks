@@ -1,0 +1,33 @@
+.footer {
+  margin: 40px 0 60px 0;
+  font-size: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: rgb(159, 160, 161);
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer a:after {
+  box-shadow: 0px 10px 30px #067aa8;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #10bbff;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  transition: 0.5s;
+}
+
+.footer a:hover:after {
+  width: 100%;
+}
