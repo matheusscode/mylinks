@@ -1,4 +1,4 @@
-.btn {
+.link {
   border-radius: 10px;
   display: block;
   text-align: center;
@@ -11,11 +11,12 @@
   background-color: #370a85;
   width: 320px;
   transition: 0.5s;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 5px black;
   font-weight: 500;
+  box-shadow: 1px 1px 3px #0056a7bd, 1px 1px 6px rgba(151, 3, 180, 0.637);
 }
 
-.btn:hover {
+.link:hover {
   transform: scale(1.08);
   box-shadow: 0 0 5px #10bbff, 0 0 10px #10ffcb;
   background-color: #10bbff;

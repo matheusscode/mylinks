@@ -20,3 +20,25 @@ body {
   text-align: center;
   margin-top: 60px;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #090917;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #2e84b586;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #2e83b5;
+  border: 1px solid #2f94ce;
+  box-shadow: 0px 10px 20px #067aa8;
+}
+
+@media (max-width: 950px) {
+  body::-webkit-scrollbar {
+    width: 7px;
+  }
+}

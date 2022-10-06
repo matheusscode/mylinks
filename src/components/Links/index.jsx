@@ -7,7 +7,7 @@ const Links = (props) => {
 
   return (
     <div>
-      <a className="btn" href={link}>
+      <a className="link" target="_blank" href={link}>
         {textLinksToUpperCase}
       </a>
     </div>
